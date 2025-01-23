@@ -25,6 +25,7 @@ public class RoleServiceImpl implements RoleSerivce {
         return repositories.getById(id);
     }
 
+
     @Override
     public Role save(Role role) {
         return repositories.save(role);
